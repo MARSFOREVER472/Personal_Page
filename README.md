@@ -4,7 +4,7 @@
 
 ### **_He aquí un ejemplo básico de una página de aterrizaje (landing page) que incluye HTML, CSS, y algo de JavaScript para agregar interactividad:_**
 
-### Estructura del Proyecto
+### _Estructura del Proyecto_
 
 index.html: Archivo principal con el contenido de la página.
 style.css: Archivo de estilos.
