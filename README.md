@@ -2,7 +2,7 @@
 
 ## **_Página personal realizado con JavaScript!_**
 
-### He aquí un ejemplo básico de una página de aterrizaje (landing page) que incluye HTML, CSS, y algo de JavaScript para agregar interactividad:
+### _He aquí un ejemplo básico de una página de aterrizaje (landing page) que incluye HTML, CSS, y algo de JavaScript para agregar interactividad:_
 
 ### Estructura del Proyecto
 
