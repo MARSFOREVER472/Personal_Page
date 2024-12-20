@@ -6,6 +6,6 @@
 
 ### **_Estructura del Proyecto_**
 
-- _index.html: Archivo principal con el contenido de la página._
+- **_index.html: Archivo principal con el contenido de la página._**
 - style.css: Archivo de estilos.
 - script.js: Archivo de JavaScript para interactividad.
