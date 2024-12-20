@@ -8,4 +8,4 @@
 
 - **_index.html: Archivo principal con todo el contenido de la página._**
 - **_style.css: Archivo mediante una hoja de estilos._**
-- **_script.js: Archivo de JavaScript para interactividad._**
+- **_script.js: Archivo de JavaScript para interactividad con otros archivos mencionados anteriormente._**
