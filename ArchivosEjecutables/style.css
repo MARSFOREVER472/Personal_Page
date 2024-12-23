@@ -1,0 +1,175 @@
+/* GENERAL STYLES */
+
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HEADER */
+
+.header
+{
+    background: linear-gradient(to right, #007BFF #0056B3);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header h1
+{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header p
+{
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+}
+
+.cta button
+{
+    background: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cta button:hover
+{
+    background: #f0f0f0;
+}
+
+/* NAVBAR */
+
+.navbar
+{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+.navbar ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+
+section
+{
+    padding: 50px 20px;
+}
+
+.about, .skills, .projects, .contact
+{
+    background: #f9f9f9;
+    text-align: center;
+}
+
+/* SKILLS LIST */
+
+.skills-list li
+{
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* PROJECT CARDS */
+
+.project-grid
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card
+{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+/* CONTACT FORM */
+
+.contact form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea, .contact button
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button
+{
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.contact button:hover
+{
+    background: #0056B3;
+}
+
+.hidden
+{
+    display: none;
+}
+
+/* FOOTER */
+
+.footer
+{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
